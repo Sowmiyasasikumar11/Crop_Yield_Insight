@@ -1,0 +1,10 @@
+CH21 Crop Yield Insight - PRACTICE DATASET
+
+IMPORTANT: These are synthetic, generated practice data. They are NOT the faculty's original dataset and are NOT real farm measurements. Do not report results from them as real-world or faculty-provided findings.
+
+Files: fields.csv, soil.csv, weather.csv, practices.csv, harvest.csv
+Join keys: field_id and season_year.
+Yield target: harvest.csv -> yield_tonnes_ha (continuous regression target).
+Designed data-quality examples include missing values, inconsistent crop naming, a duplicate harvest row, and an extreme yield value. Identify and handle these transparently.
+
+Use this dataset to practice the Colab workflow. If your faculty shares official files, replace these practice files and rerun all analysis and metrics.
